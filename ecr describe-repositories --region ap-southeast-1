@@ -1,0 +1,158 @@
+{
+    "repositories": [
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/yap-flask-s3-repo",
+            "registryId": "255945442255",
+            "repositoryName": "yap-flask-s3-repo",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/yap-flask-s3-repo",
+            "createdAt": "2025-02-22T10:33:20.541000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/wx-s3",
+            "registryId": "255945442255",
+            "repositoryName": "wx-s3",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/wx-s3",
+            "createdAt": "2025-02-22T11:47:51.005000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/linus-test",
+            "registryId": "255945442255",
+            "repositoryName": "linus-test",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/linus-test",
+            "createdAt": "2025-02-22T11:54:35.399000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/jsstrn/multi-service-flask-s3",
+            "registryId": "255945442255",
+            "repositoryName": "jsstrn/multi-service-flask-s3",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/jsstrn/multi-service-flask-s3",
+            "createdAt": "2025-02-22T12:27:18.367000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/yap-flask-sqs-repo",
+            "registryId": "255945442255",
+            "repositoryName": "yap-flask-sqs-repo",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/yap-flask-sqs-repo",
+            "createdAt": "2025-02-22T10:33:36.346000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/wx-sqs",
+            "registryId": "255945442255",
+            "repositoryName": "wx-sqs",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/wx-sqs",
+            "createdAt": "2025-02-22T11:47:41.315000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/ce8-coaching18-sqs",
+            "registryId": "255945442255",
+            "repositoryName": "ce8-coaching18-sqs",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/ce8-coaching18-sqs",
+            "createdAt": "2025-02-22T12:16:42.100000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/ce8-coaching18-s3",
+            "registryId": "255945442255",
+            "repositoryName": "ce8-coaching18-s3",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/ce8-coaching18-s3",
+            "createdAt": "2025-02-22T12:16:42.109000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/sqs-service-repo",
+            "registryId": "255945442255",
+            "repositoryName": "sqs-service-repo",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/sqs-service-repo",
+            "createdAt": "2025-02-22T10:41:14.820000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/s3-service-repo",
+            "registryId": "255945442255",
+            "repositoryName": "s3-service-repo",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/s3-service-repo",
+            "createdAt": "2025-02-22T10:41:14.812000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:ap-southeast-1:255945442255:repository/harris-coach18-ecr",
+            "registryId": "255945442255",
+            "repositoryName": "harris-coach18-ecr",
+            "repositoryUri": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/harris-coach18-ecr",
+            "createdAt": "2025-02-22T12:35:18.226000+08:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "AES256"
+            }
+        }
+    ]
+}

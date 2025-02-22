@@ -1,0 +1,24 @@
+name: Deploy Flask-S3 Service
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'flask-s3-service/**'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Login to AWS ECR
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t your-ecr-repo-url/s3-service:latest ./flask-s3-service
+          docker push your-ecr-repo-url/s3-service:latest

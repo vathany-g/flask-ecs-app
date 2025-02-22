@@ -1,0 +1,24 @@
+name: Deploy Flask-SQS Service
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'flask-sqs-service/**'
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Login to AWS ECR
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build and Push Docker Image
+        run: |
+          docker build -t your-ecr-repo-url/sqs-service:latest ./flask-sqs-service
+          docker push your-ecr-repo-url/sqs-service:latest

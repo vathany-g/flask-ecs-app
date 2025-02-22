@@ -29,6 +29,6 @@ jobs:
 
       - name: Build and Push Flask-SQS Service Image
         run: |
-          docker build -t yap-flask-sqs-repo ./flask-sqs-service
-          docker tag yap-flask-sqs-repo:latest 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/yap-flask-sqs-repo:latest
-          docker push 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/yap-flask-sqs-repo:latest
+          docker build -t sqs-service-repo ./flask-sqs-service
+          docker tag sqs-service-repo:latest 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/sqs-service-repo:latest
+          docker push 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/sqs-service-repo:latest
